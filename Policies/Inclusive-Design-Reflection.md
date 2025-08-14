@@ -60,7 +60,3 @@ Hi,
 I understand how frustrating that can feel — it’s okay, and it doesn’t mean you failed. One idea is to try the **auto-restart option** so your timer starts again without extra clicks. You can also set a gentle reminder to nudge you back if you get sidetracked. You’re making progress just by showing up and trying again, and we’re here to help you make the tools work for you.
 
 ---
-
-## Commitment
-
-I will **actively consider sensory needs, cognitive load, and clarity** in all my QA reviews, ensuring Focus Bear remains welcoming and usable for vulnerable populations.

@@ -89,11 +89,3 @@ The AI provided a good starting point for regression tests, but some scenarios w
 > Always review AI-generated test cases against actual system requirements and update them to match the project’s current scope.
 
 ---
-
-## 📌 Summary
-
-As a Manual Q&A Intern, I will:
-
-- Use AI for efficiency, not as a replacement for hands-on testing.
-- Protect Focus Bear’s confidential and proprietary data.
-- Validate all AI outputs through manual execution and requirement checks.

@@ -1,4 +1,4 @@
-# ​Data Privacy & Confidentiality – Reflection
+# Data Privacy & Confidentiality – Reflection
 
 ## Role Context
 
@@ -7,7 +7,7 @@ My role involves testing the product and occasionally handling data that could i
 
 ---
 
-## Reflection
+## 🔍 Research & Learn
 
 ### Key Takeaways from Focus Bear’s Privacy Policy
 
@@ -19,58 +19,58 @@ My role involves testing the product and occasionally handling data that could i
 
 ### Types of Confidential Data at Focus Bear
 
-- Personally Identifiable Information (emails, names, device details).
-- Habit and usage analytics (encrypted at rest, anonymized).
-- Internal test data, QA logs, and feature documentation.
-- API logs, error reports, and app usage patterns.
+- Personally Identifiable Information (emails, names, device details)
+- Habit and usage analytics (encrypted at rest, anonymized)
+- Internal test data, QA logs, and feature documentation
+- API logs, error reports, and app usage patterns
 
 ---
 
 ### Best Practices for Handling Confidential Data
 
-- Use **only company-approved tools and platforms**, such as secure storage and encrypted channels.
-- Avoid storing or sharing data using personal devices or untrusted sources.
-- Ensure any exported logs or reports are anonymized and shared securely.
-- Keep work systems locked when unattended and protect access with strong passwords or 2FA.
+- Use **only company-approved tools and platforms**, such as secure storage and encrypted channels
+- Avoid storing or sharing data using personal devices or untrusted sources
+- Ensure any exported logs or reports are anonymized and shared securely
+- Keep work systems locked when unattended and protect access with strong passwords or 2FA
 
 ---
 
 ### Responding to a Suspected Data Breach
 
-1. Immediately halt any activity that could expose further data.
-2. Notify my supervisor or the DPO (via privacy@focusbear.io).
-3. Record details of the incident—what data was involved, how exposure occurred.
-4. Cooperate fully with any follow-up or mitigation efforts.
+1. Immediately halt any activity that could expose further data
+2. Notify my supervisor or the DPO (via privacy@focusbear.io)
+3. Record details of the incident—what data was involved, how exposure occurred
+4. Cooperate fully with any follow-up or mitigation efforts
 
 ---
 
-## Actionable Security Steps in My Daily Work
+## 📝 Reflection
 
-- Only collect personal data when absolutely necessary for testing—and remove it after use.
-- Use anonymized or dummy data for test scenarios wherever possible.
-- Store logs in secure, approved cloud storage with access control.
-- Never email or copy confidential data to unsecured channels.
+### Steps I Can Take to Handle Data Securely in Daily Tasks
+
+- Only collect personal data when absolutely necessary for testing—and remove it after use
+- Use anonymized or dummy data for test scenarios wherever possible
+- Store logs in secure, approved cloud storage with access control
+- Never email or copy confidential data to unsecured channels
+
+---
+
+### Safe Storage, Sharing & Disposal
+
+- **Storing**: Keep data in encrypted, permission-controlled cloud platforms
+- **Sharing**: Share via secure links with limited access, not attachments
+- **Disposing**: Permanently delete unnecessary copies from devices and cloud—ensure both local and remote traces are removed
 
 ---
 
 ### Common Mistakes & How I Will Avoid Them
 
-- **Mistake**: Using personal storage or messaging apps for work data.  
-  **Solution**: Use only approved company tools and storage.
-
-- **Mistake**: Leaving data visible on an unlocked screen.  
-  **Solution**: Always lock screens when away from the desk.
-
-- **Mistake**: Sharing too much info via logs or support requests.  
-  **Solution**: Anonymize or redact logs before sharing.
-
----
-
-## Commitments & Improvements
-
-- I will strictly use Focus Bear-approved infrastructure for handling sensitive information.
-- I will anonymize data in logs and reports whenever feasible.
-- I will immediately report any suspected data exposure through proper channels.
+- **Mistake**: Using personal storage or messaging apps for work data  
+  **Solution**: Use only approved company tools and storage
+- **Mistake**: Leaving data visible on an unlocked screen  
+  **Solution**: Always lock screens when away from the desk
+- **Mistake**: Sharing too much info via logs or support requests  
+  **Solution**: Anonymize or redact logs before sharing
 
 ---
 

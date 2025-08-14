@@ -1,66 +1,52 @@
-# Kanban Board – Research, Reflection, and Task
+# Agile Workflows & Kanban – Reflection
 
 ## 🔍 Research & Learn
 
-### How does a Kanban board work, and how does it help manage workflow?
+**How does a Kanban board work, and how does it help manage workflow?**  
+A Kanban board provides a visual representation of the team’s workflow, allowing everyone to track progress and identify bottlenecks quickly. At Focus Bear, the board is organised into multiple columns representing different stages of work — from initial planning to completion. Each task is a card containing a short description, tags, and sometimes linked issues or pull requests.
 
-A Kanban board is a visual tool used to manage workflow by showing tasks as cards that move through different stages (columns). It helps teams see what’s being worked on, what’s coming up, and what’s completed. The visual format makes it easy to track progress, identify bottlenecks, and maintain a steady flow of work.
+**What do the different columns on a Kanban board represent?**  
+From the Focus Bear Mobile team board:
 
-### What do the different columns on a Kanban board represent?
+- **Backlog** – Tasks and ideas that are planned but not yet started.
+- **In Progress** – Items currently being worked on.
+- **Testing / Verification** – Completed work under review or testing.
+- **Done** – Finalised tasks ready for closure.
+- **Unable to Replicate / Blocked** – Items that cannot progress due to missing information or dependencies.
 
-Common columns include:
+**How do tasks move through the board, and who is responsible for updating them?**  
+Tasks typically move left to right as work progresses. When a team member starts a task, they drag it into **In Progress**; once completed, it moves to **Testing/Verification**. After approval, it moves to **Done**. The task owner is responsible for updating its position and status.
 
-- **Backlog** – Ideas, requests, or tasks that are planned but not yet started.
-- **In Progress** – Tasks actively being worked on.
-- **Blocked** – Tasks that cannot move forward due to a dependency or issue.
-- **Done** – Tasks that have been completed.
+**What are the benefits of limiting work in progress (WIP)?**
 
-### How do tasks move through the board, and who is responsible for updating them?
-
-Tasks (cards) move from left to right as work progresses.
-
-- Team members are usually responsible for updating the status of the tasks they are working on.
-- In collaborative teams, updates may happen during daily stand-ups or when work status changes.
-
-### What are the benefits of limiting work in progress (WIP)?
-
-- Reduces multitasking and context switching.
-- Improves focus on fewer tasks, leading to faster completion.
-- Makes bottlenecks visible so they can be resolved quickly.
-- Encourages finishing work before starting new tasks.
+- Prevents overloading team members
+- Improves focus and quality
+- Makes bottlenecks visible early
+- Helps complete tasks faster before starting new ones
 
 ---
 
 ## 📝 Reflection
 
-### How does Kanban help manage priorities and avoid overload?
+**How does Kanban help manage priorities and avoid overload?**  
+In the Focus Bear workflow, Kanban makes it easy to see which tasks are high priority (through tags and ordering in columns) and limits the number of items in **In Progress**. This prevents team members from juggling too many tasks at once and ensures important work gets completed sooner.
 
-Kanban provides visibility of all tasks in one place, making it easier to see priorities at a glance. WIP limits ensure team members don’t take on too much at once, which prevents burnout and keeps quality high.
+**How can you improve your workflow using Kanban principles?**  
+I can improve my own workflow by:
 
-### How can you improve your workflow using Kanban principles?
-
-I can:
-
-- Regularly review and prioritize the **Backlog** so the most important work is ready for the next stage.
-- Use WIP limits to stay focused on completing current tasks before starting new ones.
-- Update task status in real-time to maintain an accurate view of progress for the team.
+1. Regularly updating task statuses to reflect real-time progress
+2. Keeping only a small number of tasks in progress
+3. Reviewing **Blocked/Unable to Replicate** items more frequently to remove obstacles quickly
 
 ---
 
 ## 🛠️ Task
 
-### Observation of Focus Bear’s Kanban Board
+**Observation from Focus Bear’s Kanban board (GitHub Projects):**  
+Tasks are grouped by month (e.g., **August Tasks**) and each card includes clear descriptions, labels, and references to GitHub issues. This makes it easy to track development progress and understand task context at a glance.
 
-- Tasks are organized into clear columns: Backlog → In Progress → Review → Done.
-- Each card contains a clear title, description, and assignee.
+**Action taken:**  
+I moved one assigned mobile app task from **In Progress** to **Testing/Verification** after completing implementation and initial checks.
 
-### Action Taken
-
-- Moved one task from **In Progress** to **Review** after completing the main work.
-- Updated the task’s description with the latest details before moving it.
-
-### Improvement Suggestion for Task Tracking
-
-- Add labels or tags for **priority level** (High, Medium, Low) so it’s easier to see urgent work at a glance.
-
----
+**One improvement idea:**  
+Add a **"Ready for Review"** column between **Testing** and **Done** to separate completed but unapproved work from fully finished tasks.

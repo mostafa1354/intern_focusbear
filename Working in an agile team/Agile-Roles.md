@@ -77,13 +77,9 @@ This directly supports the Agile process by enabling **fast feedback loops** and
 **2. One Role I Frequently Collaborate With & How to Improve Teamwork**
 
 > I frequently collaborate with **Developers**. To improve teamwork, I will:
->
+
 > - Provide more detailed bug reports with reproduction steps and screenshots.
 > - Confirm requirements with developers before starting test execution to avoid misunderstandings.
 > - Give quick feedback after testing so they can address issues within the same work cycle.
 
 ---
-
-## Commitment
-
-I will maintain open communication with both developers and the PM, keep my testing aligned with the Kanban board priorities, and ensure my feedback is timely, detailed, and actionable.

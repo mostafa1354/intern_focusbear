@@ -7,7 +7,7 @@ My work involves testing new features, identifying bugs, and verifying fixes. Un
 
 ---
 
-## Module 1: Agile Principles & Frameworks
+## 🔍 Research & Learn
 
 ### What is Agile and How It Differs from Traditional Project Management
 
@@ -89,7 +89,6 @@ Agile is an iterative and flexible approach to software development that emphasi
 Scrum works in fixed sprints with defined roles and regular ceremonies, focusing on delivering a specific set of tasks within each sprint. Kanban uses a continuous flow approach, allowing tasks to be added or reprioritized anytime, with a focus on limiting work in progress and maintaining steady throughput.
 
 **2. One Agile principle most useful in my work:**  
-_"Welcome changing requirements, even late in development."_  
-As a QA intern, this principle helps me adapt my testing to changes quickly, ensuring that the final product meets evolving user and business needs.
+**“Responding to change over following a plan”** – This helps me adapt my testing approach quickly when features or priorities shift, ensuring I focus on what’s most valuable at the time.
 
 ---

@@ -98,7 +98,3 @@ During a group university project, each member shared daily updates and helped e
 - Share confidential information outside the company.
 
 ---
-
-## Commitment
-
-I will uphold Focus Bear’s standard of professionalism by combining respect, clear communication, and proactive work habits with a friendly and approachable attitude.
