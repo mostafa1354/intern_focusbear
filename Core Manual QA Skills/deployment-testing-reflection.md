@@ -66,4 +66,25 @@ My role includes testing before and after releases, verifying urgent hotfixes, a
 - Work closely with developers to clarify changes and risks.
 - Use monitoring tools post-release to catch any issues early.
 
----
+### Personal Example from Onboarding
+
+During my onboarding, I observed a small post-release issue where a new **privacy quiz module** was deployed.  
+Some users reported that the **progress tracker wasn’t updating** correctly after finishing the first quiz.
+
+As QA, I first tried to **reproduce the bug** on my own device, confirmed it was happening, and logged the issue with clear reproduction steps and a screenshot.  
+The developers created a quick hotfix, which I tested in staging before it was deployed to production.
+
+Once deployed, I re-tested the fix in production to make sure the tracker updated correctly and also ran a quick **smoke test on related modules** to ensure nothing else broke.  
+This experience taught me the importance of **fast communication** and **minimal but focused regression testing** during hotfixes.
+
+### Personal Example – Hotfix Testing
+
+I tested a bug where the **quiz progress bar was not updating** on iOS.
+
+- **Before Hotfix (Bug):**  
+  ![progress bar not updating](image.png)
+
+- **After Hotfix (Fixed):**  
+  ![progress bar updating](image-1.png)
+
+This showed me the importance of verifying the fix and running quick smoke tests to ensure related functionality remained stable.

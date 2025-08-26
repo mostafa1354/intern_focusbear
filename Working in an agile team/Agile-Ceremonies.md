@@ -82,4 +82,63 @@ My work involves testing features, verifying fixes, and collaborating closely wi
 - I will start adding **clear reproduction steps and screenshots** for every bug I report.  
   This will help developers quickly understand and address issues without needing multiple follow-ups.
 
+# 🐞 Bug Report
+
+**Title:** Progress bar not updating after initializing Quiz Module (iOS)
+
 ---
+
+## 📋 Description
+
+When a user starts the Quiz module in the mobile app, the **Progress Overview bar** does not update to reflect current progress on iOS devices.  
+Instead, it always shows “Not Started” even after answering questions.
+
+---
+
+## 🔄 Steps to Reproduce
+
+1. Open the Face book privacy awarness app on an iOS device (v1.0.0).
+2. Navigate to **Your Privacy Journey → Quiz Module**.
+3. Begin the first quiz (e.g., _Block, Restrict, Report Usage_).
+4. Complete 1–2 questions.
+5. Return to the **Progress Overview** screen.
+
+---
+
+## ✅ Expected Result
+
+- Progress bar should update (e.g., “In Progress: 1” / “Completed: 1”).
+- The overview should reflect the number of quizzes started/completed.
+
+---
+
+## ❌ Actual Result
+
+- Progress bar remains unchanged:
+  - **0 Completed**
+  - **0 In Progress**
+  - **5 Not Started**
+- Even though a quiz session has already begun.
+
+---
+
+## 📸 Evidence
+
+- Screenshot attached: shows “Not Started” despite starting a quiz.
+  ![alt text](image-1.png)
+  ![alt text](image.png)
+
+## ⚙️ Environment
+
+- **Device:** iPhone 13
+- **OS:** iOS 17.0
+- **App Version:** 1.0.0 (Beta)
+- **Network:** Wi-Fi
+
+---
+
+## 📌 Notes
+
+- Bug only reproduced on **iOS**.
+- Works correctly on **Android** (progress updates immediately).
+- Possibly related to local state not syncing with backend after initialization.

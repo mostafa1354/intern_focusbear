@@ -61,4 +61,67 @@ In my role, I need to ensure that Focus Bear works reliably not only in normal u
 - Use 3G/slow network simulation to check if UI remains responsive.
 - Ensure actions either retry automatically or prompt the user to retry manually.
 
----
+## 🧪 Edge-Case Test – Overlong / Invalid Email with Auth Failure
+
+**Scenario:** Attempted login with an excessively long, invalid email string.
+
+**Steps:**
+
+1. Opened the Focus Bear login page.
+2. Pasted an email with 80+ random characters before `@gmail.com`.
+3. Entered a valid-looking password.
+4. Clicked **Sign In**.
+
+**Expected:**
+
+- Email field rejects invalid format before sending request.
+- Clear inline message like _“Please enter a valid email address (max 80 chars)”_.
+- No backend authentication call triggered.
+
+**Actual (Captured Evidence):**
+
+- UI displayed a generic error: **“Wrong email or password”**.
+- DevTools **Network tab** shows two failed `token` requests (HTTP **403 Forbidden**).
+- Request was sent to backend despite invalid email format.
+
+**Screenshot Evidence:**
+
+![alt text](image-7.png)
+– red error message shown in UI.
+– DevTools showing 403 failures for `/token`.
+
+**Notes:**
+
+- Error message is misleading (suggests wrong credentials instead of invalid format).
+- Could be improved by **front-end validation** (block bad input before hitting backend).
+- Helps reduce unnecessary load on authentication service.
+
+## 🔴 Failure Case – Network/Resource Loading Errors
+
+**Scenario:** Tested app behavior with unstable or offline network conditions.
+
+**Steps:**
+
+1. Opened Focus Bear dashboard in Chrome.
+2. Switched Network mode in DevTools to **Offline** (simulate poor connectivity).
+3. Refreshed page and attempted to sign in.
+
+**Expected:**
+
+- App should display a **clear offline message** (e.g., _“No internet connection, please reconnect”_).
+- Requests should be queued or retried once connection is restored.
+
+**Actual (Captured Evidence):**
+
+- Multiple requests failed (`chunk.js`, `service-worker.js`, `request.ts`).
+- Status shown as **(failed)** in DevTools Network tab.
+- No meaningful feedback was shown to the user — only silent failures in console.
+
+**Screenshot Evidence:**
+![alt text](image-8.png)
+– DevTools showing repeated `(failed)` fetch attempts under offline mode.
+
+**Notes:**
+
+- User experience could be improved by **offline detection and a fallback screen**.
+- This would prevent confusion when network instability occurs.

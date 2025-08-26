@@ -72,4 +72,16 @@ My role in the Scrum team is to ensure quality is embedded into every stage of t
 - Pause release until the bug is resolved and retested.
 - If necessary, work with the team to decide whether to hotfix, delay, or rollback.
 
----
+### Personal Example – Being an Active Scrum Team Member
+
+In a previous app project, I caught a critical issue where the **quiz progress bar was not updating** on iOS.  
+I raised it during the daily standup as a blocker, clearly described the reproduction steps, and provided screenshots for the developers.  
+Because of this early communication, the bug was prioritized, fixed, and retested within the same sprint, preventing it from reaching production.
+
+- **Before Fix (Bug):**
+  ![alt text](image-1.png)
+
+- **After Fix (Resolved):**
+  ![alt text](image-2.png)
+
+From that experience, I learned how important it is for QA to actively participate in Scrum ceremonies—not just testing features, but also communicating risks and blockers early. At Focus Bear, I plan to apply the same approach by contributing in sprint planning with risk insights, raising blockers quickly in standups, and ensuring bugs are well-documented so the team can resolve them without delays.

@@ -70,4 +70,6 @@ My role involves participating in Scrum ceremonies to ensure QA is integrated th
 - Propose process changes such as earlier handoff for testing or parallel testing.
 - Suggest better communication channels for bug reporting and tracking.
 
----
+### Personal Example – Applying QA Practices
+
+In a previous app project, I tested a quiz module where the **progress bar failed to update correctly** on iOS. I raised the issue during our daily standup, documented clear reproduction steps, and attached screenshots for the developers. Because the bug was identified and communicated early, the team was able to implement and validate a hotfix within the sprint. This experience showed me the value of concise updates in standups, detailed bug reporting, and active participation in retrospectives to suggest process improvements. As a Manual QA Intern at Focus Bear, I plan to apply the same practices surfacing blockers early, providing clear test evidence, and collaborating closely with developers—to keep sprints on track and ensure high-quality releases.

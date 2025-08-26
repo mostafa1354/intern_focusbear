@@ -57,4 +57,4 @@ I enabled Focus Bear’s movement break reminders. They prompted me to stand, st
 **4. Document at least one workspace change or habit adjustment you made**  
 I now take regular movement breaks every 30–45 minutes and have adjusted my chair height so my knees are at a 90° angle and my feet rest flat on the floor.
 
----
+![alt text](image-1.png)

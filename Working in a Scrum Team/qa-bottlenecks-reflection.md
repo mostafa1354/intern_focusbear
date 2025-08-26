@@ -62,4 +62,16 @@ My role is to ensure timely and thorough testing during Agile sprints, preventin
 - Increase early collaboration between QA and devs.
 - Request additional QA resources or partial automation for repetitive regression checks.
 
----
+### Personal Experience with QA Bottlenecks
+
+During one sprint, several features were handed to QA at the same time on the final two days.  
+This created a bottleneck because there wasn’t enough time to thoroughly test each feature before release.
+
+To manage the pileup, I prioritized **critical user-facing features first** (like login and payment),  
+and flagged **lower-priority items** (such as minor UI polish) for the next sprint.  
+I also documented reproduction steps clearly for bugs I found, so developers could fix them quickly without back-and-forth.
+
+Looking back, I realized that encouraging earlier handoffs and **testing incrementally** could have prevented the rush.  
+Since then, I’ve started reminding the dev team during stand-ups to share features as soon as they’re test-ready.
+
+![alt text](image.png)

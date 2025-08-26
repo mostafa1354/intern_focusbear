@@ -69,4 +69,34 @@ My role requires me to identify and report issues accurately. Using logs and deb
 3. Compare with API documentation or expected schema.
 4. Share the API endpoint, status code, and response body with developers.
 
----
+Reflection with My Own Examples
+
+Example 1 – Console Error in Browser DevTools
+
+While testing the Focus Bear dashboard, I opened the Console tab in Chrome DevTools. I observed a JavaScript error in red:
+
+This error shows an uncaught promise rejection. Sharing this kind of log helps developers quickly trace the issue in the frontend code.
+
+![alt text](image-5.png)
+
+Example 2 – Network Request Failure (400 Bad Request)
+
+Next, I switched to the Network tab in DevTools and monitored API calls. I captured a failed request to Stripe’s payment API:
+
+Here, the status code 400 (Bad Request) indicates an invalid payload or missing parameter. This is exactly the kind of detail developers need when debugging API issues.
+
+![alt text](image-4.png)
+
+📖 Personal Experience – Debugging in My Facebook Privacy Awareness App Project
+
+During my university project, I worked on developing a Facebook Privacy Awareness mobile app using Flutter and Firebase. While testing, I faced an issue where some privacy tutorial videos were not loading properly.
+
+To debug:
+
+I opened Browser DevTools while testing the web version and noticed a 404 Not Found error in the Network tab, which showed that the video file was being requested from the wrong path.
+
+In the Console tab, I also saw JavaScript warnings pointing to missing resources.
+
+By capturing these logs and sharing them with my teammates, we quickly identified that the file path in Firebase Storage was misconfigured. After correcting the URL, the videos loaded successfully.
+
+This experience showed me how logs and debugging tools directly helped me solve real issues. It also built my confidence in using the same techniques during my internship to give developers detailed and actionable feedback.

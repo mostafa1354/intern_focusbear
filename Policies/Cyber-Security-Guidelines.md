@@ -78,3 +78,21 @@
 **New Cyber Security Habit:**
 
 > I will perform a monthly review of my account security settings to ensure passwords remain strong, 2FA is active, and unused accounts are deactivated.
+
+## Phishing Alert Story – Norton Security Email
+
+Last month, I received an email claiming I had purchased **Norton Security** and attached a bill.  
+Since I hadn’t made any purchase, I treated it as a **suspected phishing attempt**.
+
+### Steps I Took:
+
+- ❌ I **did not click** any links or open attachments.
+- 🔍 I **verified independently** by checking:
+  - My **bank account** → no charges found.
+  - My **Norton account via the official website** → no purchase recorded.
+- 🚫 I used my email client’s **Report as Spam/Phishing** option.
+- 🗑️ I then **deleted the email**.
+
+![alt text](image-3.png)
+![alt text](image-2.png)
+![alt text](image-4.png)

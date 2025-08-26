@@ -2,19 +2,20 @@
 
 ## Understanding Focus Bear’s Mission & Vision
 
-Focus Bear is a productivity app designed specifically for individuals with ADHD and Autism (AuDHD) who often face challenges like distractions, trouble building routines, and punctuality issues. It helps by blocking distractions, guiding habits in real time, and offering features like “Late No More,” which sends escalating reminders to help users stay on time :contentReference[oaicite:1]{index=1}.
-
----
+Focus Bear is a productivity app designed specifically for individuals with ADHD and Autism (AuDHD) who often face challenges like distractions, trouble building routines, and punctuality issues. It helps by blocking distractions, guiding habits in real time, and offering features like “Late No More,” which sends escalating reminders to help users stay on time.
 
 ### Reflection Questions
 
 #### 1. Why do you think Focus Bear was created?
 
-Focus Bear was created to fill a gap where traditional productivity tools fall short for neurodivergent individuals, including those with ADHD and ASD. It was built by people with lived experience, aiming to design productivity aids that truly resonate with their needs :contentReference[oaicite:2]{index=2}.
+Focus Bear was created to fill a gap where traditional productivity tools fall short for neurodivergent individuals, including those with ADHD and ASD. It was built by people with lived experience, aiming to design productivity aids that truly resonate with their needs.
 
 #### 2. What problem is Focus Bear solving?
 
-It addresses the struggle to maintain routines, stay focused, and be punctual—issues that can significantly impact productivity and mental well-being. By blocking distractions, guiding routines, and reinforcing habits, it helps improve daily function and confidence :contentReference[oaicite:3]{index=3}.
+It addresses the struggle to maintain routines, stay focused, and be punctual—issues that can significantly impact productivity and mental well-being. By blocking distractions, guiding routines, and reinforcing habits, it helps improve daily function and confidence.
+
+_Personal Example:_  
+When I tested the app for the first time, I noticed that **after signing up, I was allowed to enter the dashboard without verifying my email**. This surprised me because most apps require confirmation. While it made the process quicker, it also made me question whether I had completed setup properly. This shows how Focus Bear tries to reduce friction for users who may get stuck in long onboarding processes, even if it raises small concerns for clarity.
 
 #### 3. Why do you think this mission is important?
 
@@ -24,8 +25,9 @@ This mission is important because neurodivergent individuals face unique challen
 
 As a Manual Q&A Intern, I value inclusivity, empathy, and practical solutions. Focus Bear’s mission aligns with my belief that tools should meet people where they are—supporting neurodivergent users with real challenges, not just productivity ideals.
 
+_Personal Example:_  
+While testing Focus Bear, I paused the blocking feature to explore more of the app. Instead of freeing navigation, the app still locked me out with a message saying _“Blocking paused until you resume”_. At first, I thought this was a bug, but later I realized it might be intentional. For me, this reflected the **strict accountability design** of Focus Bear—showing how the app puts user protection over freedom, something I value in productivity tools aimed at people who are easily distracted.
+
 #### 5. Do you personally relate to any of the challenges that Focus Bear aims to solve?
 
 Yes—I’ve seen close friends and peers struggle with procrastination, distraction, and inconsistent routines. A tool like Focus Bear would have helped them stay on task and feel less overwhelmed, which makes this mission both meaningful and deeply relatable to me.
-
----

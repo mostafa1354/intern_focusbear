@@ -87,4 +87,16 @@ Part of my work involves investigating bugs reported by real users, which often 
 - Network connectivity issues.
 - Data-dependent errors (e.g., special characters in input).
 
----
+### 🐞 Personal Example – Investigating a Blocking Bug in Focus Bear
+
+Recently, while testing the **Focus Bear app**, I noticed that when I paused blocking, I couldn’t access other parts of the app (**screenshot attached**). At first, I thought it was a bug, but I couldn’t be sure if it was intentional behavior or a defect.
+
+![alt text](image-2.png)
+
+To investigate, I:
+
+1. Tried reproducing it on both **iOS** and **Windows** versions.
+2. Compared results across multiple **accounts**.
+3. Checked **console logs** for any error messages — none appeared.
+
+Since I couldn’t confirm the intent, I documented it as a **potential UX bug** and would ask the developers to clarify expected behavior. If this was unintended, I would recommend **adding more logging** when blocking is paused, to capture whether navigation attempts are being blocked by code.

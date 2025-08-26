@@ -66,4 +66,29 @@ In my role, I help ensure the app not only works functionally but also delivers 
 - Implement lazy loading for heavy content.
 - Cache frequently accessed data to reduce network calls.
 
----
+### Performance Testing Evidence – Focus Bear
+
+I tested the app’s responsiveness under different network conditions using Chrome DevTools.
+
+- **Slow 3G (Simulated):**  
+   ![Focus Bear under Slow 3G]
+  ![Focus Bear under Slow 3G](image.png)
+
+  - Page took noticeably longer to load (~5–6 seconds).
+  - Several requests showed pending or delayed responses.
+
+- **Fast 4G (Simulated):**  
+  ![Focus Bear under Fast 4G](image-1.png)
+
+  - Page loaded much faster (~2–3 seconds).
+  - Most requests completed quickly with fewer delays.
+
+**Observation:**  
+The app is usable under both conditions, but heavy API requests create noticeable lag under 3G. This highlights the importance of optimizing for low-bandwidth users.
+
+### Performance Tab Evidence
+
+- **Startup on Slow 3G:**
+  ![alt text](image-3.png)
+- **Startup on Fast 4G:**  
+  ![alt text](image-2.png)
